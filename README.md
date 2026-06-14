@@ -135,5 +135,6 @@ src/main/resources/kz/aws/gametexteditor/css/editor-dark.css   — тёмная 
 
 ## См. также
 
-Движок Liza, для которого предназначен редактор: формат сценариев описан в `Scenario_Guide.md`
-движка.
+**Движок Liza** — [LIZA---Visual-Novel-Game-Engine](https://github.com/Arianwait/LIZA---Visual-Novel-Game-Engine),
+визуальная новелла, для которой предназначен этот редактор. Формат сценариев описан
+в `Scenario_Guide.md` движка.
