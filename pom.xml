@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>kz.aws.gametexteditor</groupId>
-	<artifactId>kz.aws.gametexteditor</artifactId>
+	<groupId>kz.arianwait.gametexteditor</groupId>
+	<artifactId>kz.arianwait.gametexteditor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -13,7 +13,7 @@
 		<maven.compiler.source>21</maven.compiler.source>
 		<maven.compiler.target>21</maven.compiler.target>
 		<javafx.version>21.0.5</javafx.version>
-		<main.class>kz.aws.gametexteditor.EditorApp</main.class>
+		<main.class>kz.arianwait.gametexteditor.EditorApp</main.class>
 	</properties>
 
 	<dependencies>

@@ -5,7 +5,7 @@
 интерфейс и сохранять всё в XML-формат, который читает движок
 (`Dialog_Structured.xml`, `Person.xml`, `Chapters.xml`).
 
-> Точка входа — `kz.aws.gametexteditor.EditorApp`. Окно без системной рамки, со своей
+> Точка входа — `kz.arianwait.gametexteditor.EditorApp`. Окно без системной рамки, со своей
 > титульной панелью и тёмной темой.
 
 ---
@@ -54,7 +54,7 @@ mvn clean javafx:run
 
 ```bash
 mvn clean package
-java -jar target/kz.aws.gametexteditor-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+java -jar target/kz.arianwait.gametexteditor-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 ### Вариант 3. Готовый `.exe` (Windows)
@@ -86,7 +86,7 @@ java -jar target/kz.aws.gametexteditor-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 ## Структура проекта
 
 ```
-src/main/java/kz/aws/gametexteditor/
+src/main/java/kz/arianwait/gametexteditor/
 ├── EditorApp.java          — точка входа (JavaFX Application)
 ├── controller/             — MainController: главное окно, меню, общий рабочий процесс
 ├── model/                  — модель данных проекта (EditorProject, EditorScene,
@@ -107,7 +107,7 @@ src/main/java/kz/aws/gametexteditor/
 │                             импорт ресурсов, статистика текста, CSS
 └── window/                 — кастомная титульная панель и перетаскивание окна
 
-src/main/resources/kz/aws/gametexteditor/css/editor-dark.css   — тёмная тема
+src/main/resources/kz/arianwait/gametexteditor/css/editor-dark.css   — тёмная тема
 ```
 
 ---
